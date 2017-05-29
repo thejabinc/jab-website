@@ -1,0 +1,93 @@
+/*Body*/
+.jab-background {
+  background: #252525;
+}
+
+/*Navbar*/
+.jab-navbar {
+  text-transform: uppercase;
+  padding: 15px 0;
+  border: none;
+  background: #FFF;
+}
+
+.jab-navbar .uk-navbar-content,
+.jab-navbar .uk-navbar-brand,
+.jab-navbar .uk-navbar-toggle {
+  height: 40px;
+  margin-top: 0;
+  text-shadow: none;
+}
+
+.jab-navbar .uk-navbar-nav > li > a {
+  height: 40px;
+  margin: 0;
+  border: none;
+  border-radius: 3px !important;
+  text-shadow: none;
+  font-size: 15px;
+}
+
+.jab-navbar .uk-navbar-nav > li {
+  margin-left: 20px;
+}
+
+/*Hover*/
+.jab-navbar .uk-navbar-nav > li:hover > a,
+.jab-navbar .uk-navbar-nav > li > a:focus,
+.jab-navbar .uk-navbar-nav > li.uk-open > a {
+  border: none;
+  color: inherit;
+}
+
+/*Active*/
+.jab-navbar .uk-navbar-nav > li.uk-active > a{
+  background-color: #2BA3D4;
+  color: inherit;
+}
+
+/*Footer*/
+.jab-footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.05rem;
+  margin-top: 2cm;
+  background-color: inherit;
+  text-align: center;
+  font-size: 10px;
+}
+
+/*Offcanvas*/
+#offcanvas {
+  text-transform: capitalize;
+}
+
+h1.raleway {
+  font-family: 'Raleway';
+  margin-top: 25px;
+}
+p.oblique {
+  font-style: oblique;
+  font-size: 1.15em;
+}
+
+/*Misc*/
+.arrow {
+  position:relative;
+  bottom: 0;
+  left: 50%;
+  /*margin-top: 30px;*/
+  margin-left: -20px;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+}
+
+.block {
+  width: 70px;
+  height: 2px;
+  background: black;
+  margin-bottom: 50px;
+}
