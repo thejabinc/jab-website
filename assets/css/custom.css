@@ -56,7 +56,7 @@
   margin-top: 2cm;
   background-color: inherit;
   text-align: center;
-  font-size: 10px;
+  font-size: 6px;
 }
 
 /*Offcanvas*/
@@ -83,6 +83,13 @@ p.oblique {
   width: 40px;
   height: 40px;
   background-size: contain;
+}
+
+.mirror {
+  /* Rotate text */
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
 }
 
 .block {
